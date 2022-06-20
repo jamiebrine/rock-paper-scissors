@@ -10,28 +10,44 @@
 </head>
 
 <body>
-    <div id="head-text">Rock, paper, scissors.</div>
+    <div id="main">
+        <div id="head-text">Rock, paper, scissors.</div>
 
-    <div id="info">Man vs Machine... Make your choice below. First to 5 points is crowned winner!</div>
+        <div id="info">Man vs Machine... Make your choice below. First to 5 points is crowned winner!</div>
 
-    <div id="choices">
-        <button id="rock">Rock</button>
-        <button id="paper">Paper</button>
-        <button id="scissors">Scissors</button>
+        <div id="choices">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+
+        <div id="output">...</div>
+
+        <div id="results">
+            <div class="score">
+                <div id="ps-header">Your score:</div>
+                <div id="ps-display">0</div>
+            </div>
+
+            <div class="score">
+                <div id="cs-header">CPU Score:</div>
+                <div id="cs-display">0</div>
+            </div>
+        </div>
     </div>
 
-    <div id="output">...</div>
+    <div id="modal">
+        <div id="modal-content"></div>
+        <button id="play-again">Play again!</button>
+    </div>
 
-    <div id="results">
-        <div class="score">
-            <div id="ps-header">Your score:</div>
-            <div id="ps-display">0</div>
+    <div id="footer">
+        <div id="footer-text">
+            Made by Jamie Brine
         </div>
 
-        <div class="score">
-            <div id="cs-header">CPU Score:</div>
-            <div id="cs-display">0</div>
-        </div>
+        <a href="https://github.com/jamiebrine"><img id="git-logo" src="github-mark.png"></a>
+
     </div>
 
     <script src="scripts.js"></script>
